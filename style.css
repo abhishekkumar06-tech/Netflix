@@ -55,7 +55,7 @@ body{
     align-items: center;
 }
 .logo{
-    height: 70px;
+    height: 45px;
     width: 200px;
     display: flex;
     justify-content: center;
@@ -76,7 +76,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
+    border: 1.6px solid #5e5e5e;
+    border-radius: 5px;
+    width: 145px;
+    height: 38px;
 }
 .language-logo{
     color: white;
@@ -88,4 +92,8 @@ button{
     width: 80px;
     border-radius: 8px;
     font-weight: 700;
+    border-radius: 5px;
+    height: 38px;
+    width: 88px;
+    font-size: 15px;
 }
