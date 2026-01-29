@@ -97,3 +97,32 @@ button{
     width: 88px;
     font-size: 15px;
 }
+.hero{
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-weight: 400;
+    font-size: 30px;
+    z-index: 3;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.hero-section{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 75px;
+    flex-direction: column;
+}
+
+.hero-para{
+    font-size: 25px;
+}
+.hero-content-2-para{
+    font-size: 18px;
+}
