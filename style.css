@@ -170,3 +170,21 @@ body{
     font-weight: 700;
     border: none;
 }
+.after-main{
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    height: 100px;
+    z-index: 1;
+}
+.curve-container-1{
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    margin: auto;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border: solid .25rem transparent;
+}
